@@ -1,0 +1,1 @@
+const n=t=>{const e=document.createElement("button");e.className="fullScreenButton",e.textContent="fullScreen",t.appendChild(e),e.addEventListener("click",()=>{t.requestFullscreen()})};export{n as c};
